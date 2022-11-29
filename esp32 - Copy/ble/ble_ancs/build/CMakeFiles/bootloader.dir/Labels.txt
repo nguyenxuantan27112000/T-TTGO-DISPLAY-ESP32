@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/mnt/f/esp32/ble/ble_ancs/build/CMakeFiles/bootloader
+/mnt/f/esp32/ble/ble_ancs/build/CMakeFiles/bootloader.rule
+/mnt/f/esp32/ble/ble_ancs/build/CMakeFiles/bootloader-complete.rule
+/mnt/f/esp32/ble/ble_ancs/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/mnt/f/esp32/ble/ble_ancs/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/mnt/f/esp32/ble/ble_ancs/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/mnt/f/esp32/ble/ble_ancs/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/mnt/f/esp32/ble/ble_ancs/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/mnt/f/esp32/ble/ble_ancs/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/mnt/f/esp32/ble/ble_ancs/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule

@@ -1,0 +1,49 @@
+menu "Station Configuration"
+
+    config ESP_WIFI_SSID
+        string "WiFi SSID"
+        default "myssid"
+        help
+            SSID (network name) for the example to connect to.
+
+    config ESP_WIFI_PASSWORD
+        string "WiFi Password"
+        default "mypassword"
+        help
+            WiFi password (WPA or WPA2) for the example to use.
+
+    config ESP_MAXIMUM_RETRY
+        int "Maximum retry"
+        default 5
+        help
+            Set the Maximum retry to avoid station reconnecting to the AP unlimited when the AP is really inexistent.
+endmenu
+
+menu "Smart Configuration"
+
+choice ESP_SMARTCONFIG_TYPE
+	prompt "Smartconfig Type"
+	default ESP_TOUCH
+	help
+		Set protocol type of SmartConfig.
+
+		Start SmartConfig method according to the selected type when user select "ESPTouch", "AirKiss",  "ESPTouch and AirKiss" or "ESPTouch V2" type.
+
+config ESP_TOUCH
+	bool "ESPTouch"
+config AIRKISS
+	bool "AirKiss"
+config ESP_TOUCH_AIRKISS
+	bool "ESPTouch and AirKiss"
+config ESP_TOUCH_V2
+	bool "ESPTouch-V2"
+endchoice
+
+config ESP_SMARTCONFIG_TYPE
+	int
+	default 0 if ESP_TOUCH
+	default 1 if AIRKISS
+	default 2 if ESP_TOUCH_AIRKISS
+	default 3 if ESP_TOUCH_V2
+
+endmenu

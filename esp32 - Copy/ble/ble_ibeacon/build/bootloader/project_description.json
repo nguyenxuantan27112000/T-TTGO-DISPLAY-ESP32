@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/mnt/f/esp32/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/mnt/f/esp32/ble/ble_ibeacon/build/bootloader",
+    "config_file":        "/mnt/f/esp32/ble/ble_ibeacon/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.3.2-dirty",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/mnt/f/esp32/esp-idf/components/efuse/Kconfig;/mnt/f/esp32/esp-idf/components/esp32/Kconfig;/mnt/f/esp32/esp-idf/components/esp_common/Kconfig;/mnt/f/esp32/esp-idf/components/esp_system/Kconfig;/mnt/f/esp32/esp-idf/components/log/Kconfig;/mnt/f/esp32/esp-idf/components/newlib/Kconfig;/mnt/f/esp32/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/mnt/f/esp32/esp-idf/components/bootloader/Kconfig.projbuild;/mnt/f/esp32/esp-idf/components/esptool_py/Kconfig.projbuild;/mnt/f/esp32/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/mnt/f/esp32/esp-idf/components/bootloader", "/mnt/f/esp32/esp-idf/components/bootloader_support", "/mnt/f/esp32/esp-idf/components/efuse", "/mnt/f/esp32/esp-idf/components/esp32", "/mnt/f/esp32/esp-idf/components/esp_common", "/mnt/f/esp32/esp-idf/components/esp_hw_support", "/mnt/f/esp32/esp-idf/components/esp_rom", "/mnt/f/esp32/esp-idf/components/esp_system", "/mnt/f/esp32/esp-idf/components/esptool_py", "/mnt/f/esp32/esp-idf/components/hal", "/mnt/f/esp32/esp-idf/components/log", "/mnt/f/esp32/esp-idf/components/bootloader/subproject/main", "/mnt/f/esp32/esp-idf/components/bootloader/subproject/components/micro-ecc", "/mnt/f/esp32/esp-idf/components/newlib", "/mnt/f/esp32/esp-idf/components/partition_table", "/mnt/f/esp32/esp-idf/components/soc", "/mnt/f/esp32/esp-idf/components/spi_flash", "/mnt/f/esp32/esp-idf/components/xtensa", "" ]
+}
